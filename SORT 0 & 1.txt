@@ -1,5 +1,6 @@
 public static void sortZeroesAndOne(int[] arr) {
-    	//Your code goes here
+    	// below not so efficient manner to solve                    
+        
 //         int temp=0;
 //         for(int i=0;i<arr.length-1;i++){
 //             for(int j=i+1;j<arr.length;j++){
@@ -11,7 +12,7 @@ public static void sortZeroesAndOne(int[] arr) {
 //                 }
 //             }
 //         }  // 0 1 1 0 1 0 1
-        
+        //efficient solution to the problem 
         int count=0;
         for(int i=0;i<arr.length;i++){
             if(arr[i]==0){
