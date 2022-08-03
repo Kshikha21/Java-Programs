@@ -7,18 +7,13 @@ public class Solution {
      Scanner sc=new Scanner(System.in);
         int start_fahrenheit=sc.nextInt();
                 int end_fahrenheit=sc.nextInt();
-        
-        int stepSize=sc.nextInt();
+               int stepSize=sc.nextInt();
         
          int celsius;
         while(start_fahrenheit <= end_fahrenheit){
        celsius =(start_fahrenheit-32)*5/9;
                System.out.println(start_fahrenheit+" "+celsius);
-
-               
-
-                
-                start_fahrenheit=start_fahrenheit+stepSize;
+              start_fahrenheit=start_fahrenheit+stepSize;
             
         }
         
