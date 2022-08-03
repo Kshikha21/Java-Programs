@@ -1,0 +1,22 @@
+
+public class Solution {
+    
+    public static void arrange(int[] arr, int n) {
+    	//Your code goes here
+        int s=0;
+        int e=n-1;
+        int value=1;
+        while(s<=e && value<=n){
+            if(value%2!=0){
+            arr[s]=value;
+            value++;
+            s++;}
+            else{
+            arr[e]=value;
+            value++;
+            e--;}
+        }
+    
+        }
+        
+    }
