@@ -1,2 +1,2 @@
-# Java based problems on Coding ninjas
+# Java Coding ninjas
 Contains basic problems based on arrays/loops/conditions
